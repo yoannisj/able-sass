@@ -1,0 +1,31 @@
+{
+  "name": "able-sass",
+  "version": "0.1.0",
+  "description": "A Sass framework for modular and responsive CSS components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoannisj/able-sass.git"
+  },
+  "keywords": [
+    "Sass",
+    "CSS",
+    "stylesheets",
+    "modular",
+    "responsive",
+    "components",
+    "utilities",
+    "UI",
+    "framework"
+  ],
+  "author": "Yoannis Jamar <yoannis.j@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoannisj/able-sass/issues"
+  },
+  "homepage": "https://github.com/yoannisj/able-sass#readme",
+  "dependencies": {}
+}

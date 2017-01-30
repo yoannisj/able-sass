@@ -1,0 +1,28 @@
+{
+  "name": "able-sass",
+  "description": "A Sass framework for modular and responsive CSS components",
+  "main": "index.js",
+  "authors": [
+    "Yoannis Jamar <yoannis.j@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Sass",
+    "CSS",
+    "stylesheets",
+    "modular",
+    "responsive",
+    "components",
+    "utilities",
+    "UI",
+    "framework"
+  ],
+  "homepage": "https://github.com/yoannisj/able-sass",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

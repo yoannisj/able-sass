@@ -1,0 +1,15 @@
+@import "aleksi/math/add";
+@import "aleksi/maps/debug-map";
+@import "shift/variable/call";
+
+@debug "shif-call::===============================";
+
+$sum-creg: shift-call('add', $var-c, $reg);
+$_: debug-map($sum-creg);
+
+@debug "------------------------------------------";
+
+$sum-ac: shift-call('add', $var-a, $var-c);
+$_: debug-map($sum-ac);
+
+@debug "==========================================";

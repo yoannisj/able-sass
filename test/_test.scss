@@ -1,0 +1,32 @@
+@import "shift/variable/align";
+@import "aleksi/maps/debug-map";
+
+$__shift__: (
+  'breakpoints': (
+    'width': (
+      's': 400px,
+      'm': 760px,
+      'l': 920
+    ),
+    'height': (
+      's': 500px,
+      'l': 720
+    )
+  ),
+  'tweakpoints': (
+    'narrow': (
+      'width': (
+        's': 340px,
+        'l': 820
+      ),
+      'height': (
+        'l': 600px
+      )
+    )
+  )
+);
+
+@import "tests/vars";
+@import "tests/shift-align-variables";
+@import "tests/shift-call";
+@import "tests/shift-value";

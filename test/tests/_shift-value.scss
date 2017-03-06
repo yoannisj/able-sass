@@ -1,0 +1,32 @@
+@import "aleksi/math/add";
+@import "aleksi/maps/debug-map";
+@import "shift/variable/value";
+@import "shift/query";
+
+@debug "shift-value::=============================";
+
+$val-b-ctx: shift-value($var-b, $ctx);
+$_: debug-map($val-b-ctx);
+
+@debug "------------------------------------------";
+
+$sum-ac: shift-value($var-a, 'add', $var-c);
+$_: debug-map($sum-ac);
+
+@debug "------------------------------------------";
+
+$sum-ac-ctx: shift-value($var-a, $ctx, 'add', $var-c);
+$_: debug-map($sum-ac-ctx);
+
+@debug "==========================================";
+
+.test {
+  @include shift-value('font-size', $var-a);
+}
+
+@include shift-query($ctx)
+{
+  .test {
+    @include shift-value('font-size', $var-a, 'add', $var-c);
+  }
+}

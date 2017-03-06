@@ -1,0 +1,21 @@
+$var-a: (
+  's': 10,
+  'm': 20
+);
+
+$var-b: (
+  'df': red,
+  '_l': orange,
+  '_m': pink
+);
+
+$var-c: (
+  'df': 5,
+  's': 10,
+  'm': 20,
+  'l': 30
+);
+
+$reg: 10;
+
+$ctx: ('min-width': 400px, 'max-width': 920px);

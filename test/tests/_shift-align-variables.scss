@@ -1,0 +1,25 @@
+@debug "shif-align-variables::====================";
+
+$align-ab: shift-align-variables($var-a $var-b);
+@each $aln in $align-ab {
+  $_: debug-map($aln);
+  @debug "------------------------------------------";
+}
+
+@debug "==========================================";
+
+$align-areg: shift-align-variables($var-a $reg);
+@each $aln in $align-areg {
+  $_: debug-map($aln);
+  @debug "------------------------------------------";
+}
+
+@debug "==========================================";
+
+$align-ctx: shift-align-variables($var-a $var-b, $ctx);
+@each $aln in $align-ctx {
+  $_: debug-map($aln);
+  @debug "------------------------------------------";
+}
+
+@debug "==========================================";
